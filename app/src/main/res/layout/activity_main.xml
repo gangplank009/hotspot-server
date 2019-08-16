@@ -14,6 +14,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" android:id="@+id/peers_list_text_view"/>
+            app:layout_constraintTop_toTopOf="parent" android:id="@+id/connected_devices_text_view"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

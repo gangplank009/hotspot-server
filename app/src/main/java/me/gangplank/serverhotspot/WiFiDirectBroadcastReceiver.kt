@@ -28,17 +28,17 @@ class WiFiDirectBroadcastReceiver(
                         manager.discoverPeers(channel, object : WifiP2pManager.ActionListener {
 
                             override fun onSuccess() {
-                                Toast.makeText(activity, "Peers discovered", Toast.LENGTH_SHORT).show()
+                                Log.d(LOG_TAG,"Peers discovered")
                             }
 
                             override fun onFailure(reason: Int) {
-                                Toast.makeText(activity, "Peers not discovered($reason)", Toast.LENGTH_SHORT).show()
+                                Log.d(LOG_TAG,"Peers not discovered($reason)")
                             }
                         })
                     }
                     else -> {
                         // WiFi is not enabled
-                        Toast.makeText(activity, "Enable WiFi", Toast.LENGTH_SHORT).show()
+                        Log.d(LOG_TAG,"Enable WiFi")
                     }
                 }
             }
