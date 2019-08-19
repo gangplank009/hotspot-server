@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
                         Log.d(LOG_TAG, "Mac_Count : $macCount MAC_ADDRESS : $mac")
                         stringBuilder.append("Mac_Count : $macCount\n")
                             .append("MAC_ADDRESS : $mac\n")
-                            .append("IP Address : $$ipAddr")
+                            .append("IP Address : $ipAddr\n")
                             .append("Status : $macCount\n")
                     }
                 }

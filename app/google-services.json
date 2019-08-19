@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315450206407",
+    "firebase_url": "https://serverhotspot-bd9cc.firebaseio.com",
+    "project_id": "serverhotspot-bd9cc",
+    "storage_bucket": "serverhotspot-bd9cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315450206407:android:67cdc9461c7dd9c0",
+        "android_client_info": {
+          "package_name": "me.gangplank.serverhotspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315450206407-7vsfra2tefleeuln410uc1k68cijkm3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.gangplank.serverhotspot",
+            "certificate_hash": "b9d4c60ed929095c5dece355a30c51165b640126"
+          }
+        },
+        {
+          "client_id": "315450206407-qpnjl9hqrt3gt3fsq6kus4dbg41ijmm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeASBzzw910iGqf66nHUDtyTlc2s5v6uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315450206407-qpnjl9hqrt3gt3fsq6kus4dbg41ijmm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
